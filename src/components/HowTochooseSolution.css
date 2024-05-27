@@ -1,0 +1,245 @@
+.how-to-choose,
+.to-your-business {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02em;
+}
+.to-your-business {
+  top: 58.33%;
+}
+.how-to-choose-a-perfect-soluti-parent {
+  position: absolute;
+  height: 21.39%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 78.61%;
+  left: 0;
+}
+.contact-us,
+.when-it-comes {
+  position: absolute;
+  font-size: var(--font-size-xl);
+}
+.when-it-comes {
+  width: 85.52%;
+  top: 32.28%;
+  left: 11.78%;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.contact-us {
+  margin: 0;
+  top: calc(50% - 12.7px);
+  left: calc(50% - 51.45px);
+  font-weight: 500;
+  font-family: var(--font-mulish);
+  color: var(--color-cornflowerblue-100);
+  text-align: left;
+}
+.contactus {
+  cursor: pointer;
+  border: 2px solid var(--color-cornflowerblue-100);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 242.9px;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  width: 211.1px;
+  height: 55.4px;
+  overflow: hidden;
+}
+.request-demo {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 12.7px);
+  left: calc(50% - 68.35px);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-mulish);
+  color: var(--white);
+  text-align: left;
+}
+.requestdemo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-cornflowerblue-100);
+  position: absolute;
+  top: 0;
+  left: -0.2px;
+  border-radius: var(--br-xs);
+  width: 211.1px;
+  height: 55.4px;
+  overflow: hidden;
+}
+.buttons,
+.group-parent11 {
+  position: absolute;
+  height: 10.89%;
+  width: 76.43%;
+  top: 89.11%;
+  right: 11.78%;
+  bottom: 0;
+  left: 11.78%;
+}
+.group-parent11 {
+  height: 99.94%;
+  width: 51.95%;
+  top: 0;
+  right: 48.05%;
+  bottom: 0.06%;
+  left: 0;
+}
+.property-1group-244208-child {
+  position: absolute;
+  height: 79.02%;
+  width: 44.03%;
+  top: 20.98%;
+  right: 0;
+  bottom: 0;
+  left: 55.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.property-1group-244208-item {
+  position: absolute;
+  height: 51.65%;
+  width: 0.44%;
+  top: 31.76%;
+  right: 97.16%;
+  bottom: 16.58%;
+  left: 2.4%;
+  border-right: 5px solid var(--color-cornflowerblue-200);
+  box-sizing: border-box;
+}
+.group-child9,
+.property-1group-244208 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 1143.5px;
+  height: 505.3px;
+}
+.group-child9 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1.5px solid var(--color-lightslategray);
+  box-sizing: border-box;
+}
+.phone {
+  position: absolute;
+  top: 25%;
+  left: 6.5%;
+}
+.group-parent13,
+.rectangle-parent1,
+.rectangle-parent2,
+.rectangle-parent3 {
+  position: absolute;
+  height: 24.19%;
+  width: 100%;
+  top: 37.9%;
+  right: 0;
+  bottom: 37.9%;
+  left: 0;
+}
+.group-parent13,
+.rectangle-parent2,
+.rectangle-parent3 {
+  top: 75.81%;
+  bottom: 0;
+}
+.group-parent13,
+.rectangle-parent3 {
+  top: 0;
+  bottom: 75.81%;
+}
+.group-parent13 {
+  height: 49.11%;
+  width: 72.56%;
+  top: 32.28%;
+  right: 15.66%;
+  bottom: 18.61%;
+  left: 11.78%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-lightslategray);
+}
+.submit {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 16.5px);
+  left: calc(50% - 43.5px);
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  font-family: var(--font-mulish);
+  color: var(--white);
+  text-align: left;
+}
+.requestdemo1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: rgba(26, 39, 71, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  width: 185px;
+  height: 55px;
+  overflow: hidden;
+}
+.buttons1,
+.vector-icon6 {
+  position: absolute;
+  height: 10.89%;
+  width: 31.14%;
+  top: 89.11%;
+  right: 57.07%;
+  bottom: 0;
+  left: 11.78%;
+}
+.vector-icon6 {
+  height: 6.13%;
+  width: 2.71%;
+  top: 0.99%;
+  right: 0.04%;
+  bottom: 92.88%;
+  left: 97.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.property-1group-244209 {
+  position: absolute;
+  top: 20px;
+  left: 1239px;
+  width: 1143.5px;
+  height: 505.3px;
+}
+.howtochoosesolution {
+  width: 2402.5px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 545.3px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-cornflowerblue-100);
+  font-family: var(--font-mulish);
+}

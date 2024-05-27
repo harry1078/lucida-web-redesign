@@ -1,0 +1,391 @@
+.group-child,
+.group-item {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.group-child {
+  height: 72.26%;
+  top: 0;
+  bottom: 27.74%;
+  border-radius: 7.46px 7.46px 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-item {
+  height: 27.77%;
+  top: 72.26%;
+  bottom: -0.04%;
+  border-radius: 0 0 7.46px 7.46px;
+  border-right: 2px solid var(--color-cornflowerblue-100);
+  border-bottom: 2px solid var(--color-cornflowerblue-100);
+  border-left: 2px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+}
+.uiux-design {
+  position: absolute;
+  top: 81.14%;
+  left: 24.38%;
+}
+.group-inner,
+.rectangle-parent {
+  position: absolute;
+  height: 100%;
+  width: 23.76%;
+  top: 0;
+  right: 76.24%;
+  bottom: 0;
+  left: 0;
+}
+.group-inner {
+  height: 72.26%;
+  width: 100%;
+  right: 0;
+  bottom: 27.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.full-stack,
+.rectangle-group {
+  position: absolute;
+  top: 81.14%;
+  left: 31.92%;
+}
+.rectangle-group {
+  height: 100%;
+  width: 23.76%;
+  top: 0;
+  right: 25.39%;
+  bottom: 0;
+  left: 50.85%;
+}
+.big-data {
+  position: absolute;
+  top: 81.14%;
+  left: 32.96%;
+}
+.rectangle-container {
+  position: absolute;
+  height: 100%;
+  width: 23.76%;
+  top: 0;
+  right: 50.86%;
+  bottom: 0;
+  left: 25.38%;
+}
+.artificial-intelligence {
+  position: absolute;
+  top: 81.14%;
+  left: 10.77%;
+}
+.group-div,
+.group-parent {
+  position: absolute;
+  height: 100%;
+  width: 23.76%;
+  top: 0;
+  right: 0.01%;
+  bottom: 0;
+  left: 76.23%;
+}
+.group-parent {
+  width: 97.67%;
+  right: 2.33%;
+  left: 0;
+}
+.property-1group-244256-child {
+  position: absolute;
+  height: 20.64%;
+  width: 4.83%;
+  top: 35.94%;
+  right: 0;
+  bottom: 43.42%;
+  left: 95.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.property-1group-244256 {
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 600px);
+  width: 1200px;
+  height: 280.5px;
+  font-family: var(--font-mulish);
+}
+.qualifications {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.bachelors-degree-in {
+  margin-bottom: 0;
+}
+.bachelors-degree-in-design-h {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-11xl);
+}
+.bachelors-degree-in-container {
+  position: absolute;
+  top: 50.4px;
+  left: 0.6px;
+  font-size: 22.7px;
+  letter-spacing: 0.03em;
+  line-height: 49.44px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 1073.2px;
+  height: 306.9px;
+}
+.buttons-icon,
+.qualifications-parent {
+  position: absolute;
+  top: 131.1px;
+  left: 0;
+  width: 1073.8px;
+  height: 357.4px;
+}
+.buttons-icon {
+  height: 9.93%;
+  top: 90.05%;
+  bottom: 0.02%;
+  left: 12px;
+  max-height: 100%;
+  width: 366.6px;
+  object-fit: contain;
+}
+.bangalore,
+.uxui-designer {
+  position: absolute;
+  top: 0;
+  left: 51.6px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.bangalore {
+  left: 32.7px;
+  font-weight: 500;
+}
+.icon {
+  position: absolute;
+  height: 67.33%;
+  width: 10.53%;
+  top: 17%;
+  right: 89.47%;
+  bottom: 15.67%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bangalore-parent {
+  position: absolute;
+  top: 5.1px;
+  left: 333.4px;
+  width: 155.8px;
+  height: 30px;
+  font-size: var(--font-size-5xl-6);
+  color: var(--color-gray-300);
+}
+.vector-icon {
+  position: absolute;
+  height: 40%;
+  width: 4.91%;
+  top: 29.5%;
+  right: 95.09%;
+  bottom: 30.5%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.uxui-designer-parent,
+.vector-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 489.1px;
+  height: 40px;
+}
+.vector-icon1 {
+  height: 61.75%;
+  width: 2.3%;
+  top: 26.5%;
+  right: 0;
+  bottom: 11.75%;
+  left: 97.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1073.8px;
+  height: 40px;
+  font-size: var(--font-size-13xl-8);
+}
+.group-container {
+  position: absolute;
+  top: 45px;
+  left: 49px;
+  width: 1073.8px;
+  height: 569.8px;
+}
+.property-1frame-244248-child {
+  position: absolute;
+  top: 133.5px;
+  left: 45.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1078px;
+  height: 1px;
+}
+.property-1frame-244248 {
+  position: absolute;
+  top: 429px;
+  left: 20px;
+  border-radius: 24.72px;
+  border: 2.1px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  width: 1171px;
+  height: 660.2px;
+  overflow: hidden;
+  font-size: 24.7px;
+}
+.bachelors-degree-in-container1 {
+  position: absolute;
+  top: 50.2px;
+  left: 0;
+  font-size: var(--font-size-3xl-5);
+  letter-spacing: 0.03em;
+  line-height: 49.18px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 1067.7px;
+  height: 305.3px;
+}
+.qualifications-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1067.7px;
+  height: 355.5px;
+}
+.designers-take-complex {
+  margin: 0;
+}
+.designers-take-complex-container {
+  position: absolute;
+  top: 50.2px;
+  left: 0;
+  font-size: var(--font-size-3xl-5);
+  letter-spacing: 0.03em;
+  line-height: 49.18px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 1067.7px;
+  height: 242.8px;
+}
+.about-the-job-parent,
+.collaborate-with-product-container {
+  position: absolute;
+  top: 388.4px;
+  left: 0;
+  width: 1067.7px;
+  height: 293px;
+}
+.collaborate-with-product-container {
+  top: 50.2px;
+  font-size: var(--font-size-3xl-5);
+  letter-spacing: 0.03em;
+  line-height: 49.18px;
+  color: var(--color-black);
+  display: inline-block;
+  height: 404.7px;
+}
+.group-parent3,
+.responsibilities-parent {
+  position: absolute;
+  top: 714.2px;
+  left: 0;
+  width: 1067.7px;
+  height: 454.9px;
+}
+.group-parent3 {
+  top: 130.1px;
+  height: 1169.1px;
+}
+.buttons-icon1 {
+  position: absolute;
+  bottom: 0;
+  left: 11.6px;
+  width: 364.8px;
+  height: 56.4px;
+  object-fit: contain;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 61.5%;
+  width: 2.3%;
+  top: 25.5%;
+  right: 0;
+  bottom: 13%;
+  left: 97.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-parent {
+  position: absolute;
+  height: 2.9%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 97.1%;
+  left: 0;
+  font-size: var(--font-size-13xl-8);
+}
+.group-parent2 {
+  position: absolute;
+  top: 43px;
+  left: 48px;
+  width: 1068px;
+  height: 1380.2px;
+}
+.property-1frame-244249 {
+  position: absolute;
+  top: 1237px;
+  left: 20px;
+  border-radius: 24.59px;
+  border: 2px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  width: 1165px;
+  height: 1466.2px;
+  overflow: hidden;
+  font-size: var(--font-size-5xl-6);
+}
+.carrerscomponent {
+  width: 1240px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 2723.2px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl-4);
+  color: var(--color-cornflowerblue-100);
+  font-family: var(--font-inter);
+}
