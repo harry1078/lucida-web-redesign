@@ -41,6 +41,7 @@ const LucidaHome = () => {
           <div className="lucidas-core-missions-and-parent">
             <div className="lucidas-core">
               The Future of Digital Solutions is Here
+              The Future of Digital Solutions is Here
             </div>
             <b className="contact-us-2">Services</b>
           </div>
