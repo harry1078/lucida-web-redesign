@@ -2102,3 +2102,46 @@
   color: var(--color-cornflowerblue-100);
   font-family: var(--font-mulish);
 }
+
+
+/* media queries */
+@media (max-width: 900px) and (min-width: 768px) {
+ 
+  .lucida-home-child{
+      top: 10.5rem;
+      width: 20.188rem;
+      height: 45.063rem;
+    
+  }
+  .the-impetus-for-container{
+     font-size: 2.013rem;
+  }
+  
+  .venture-on-your {
+     position: absolute;
+     right:13rem;
+     top:22rem;
+     line-height: 1.9rem;
+     font-size: medium;
+  }
+  
+  .create-strategy-based-lucida{
+    position: absolute;
+    right:13rem;
+    line-height: 1.9rem;
+    font-size: medium;
+  }
+  .primary-button1{
+    position: absolute;
+    width: 59.95%;
+    top:11rem
+  }
+  .rectangle-parent9{
+    position: absolute;
+    top:11rem;
+    left:12rem
+  }
+  .group-child30{
+    height: 31.6rem;
+  }
+  }
