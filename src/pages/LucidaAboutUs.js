@@ -1,12 +1,18 @@
-import { useCallback } from "react";
+import { useCallback ,useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./LucidaAboutUs.css";
+import FunAndMore from "../components/FunAndMore";
+import Celebrations from "../components/Celebrations";
+import WorkLife from "../components/WorkLife";
+import "../components/WorkLife.css";
+import "../components/Celebrations.css";
+import "../components/FunAndMore.css";
 
 const LucidaAboutUs = () => {
   const navigate = useNavigate();
 
   const onHomeTextClick = useCallback(() => {
-    navigate("/lucidahome");
+    navigate("/");
   }, [navigate]);
 
   const onAboutUSTextClick = useCallback(() => {
@@ -20,6 +26,12 @@ const LucidaAboutUs = () => {
   const onRESOURCESTextClick = useCallback(() => {
     navigate("/lucidaresources");
   }, [navigate]);
+
+  const [selectedComponent, setSelectedComponent] = useState(WorkLife);
+
+  const handleButtonClick = (component) => {
+    setSelectedComponent(component);
+  };
 
   return (
     <div className="lucida-aboutus">
@@ -184,58 +196,18 @@ const LucidaAboutUs = () => {
         <div className="line-group">
           <div className="group-child42" />
           <div className="celebrations-parent">
-            <div className="celebrations">Celebrations</div>
-            <div className="fun-more">{`Fun & more`}</div>
+            <div className="celebrations" onClick={() => handleButtonClick(<Celebrations/>)}>Celebrations</div>
+            <div className="fun-more" onClick={() => handleButtonClick(<FunAndMore/>)}>{`Fun & more`}</div>
             <div className="frame-container">
               <div className="work-life-wrapper">
-                <b className="work-life">Work Life</b>
+                <b className="work-life" onClick={() => handleButtonClick(<WorkLife/>)}>Work Life</b>
               </div>
             </div>
           </div>
         </div>
-        <div className="our-brainstorming-parent">
-          <div className="our-brainstorming">
-            <span className="our">Our</span>
-            <span className="brainstorming">
-              <b className="b1">{` `}</b>
-              <i className="brainstorming1">{`Brainstorming!!! `}</i>
-            </span>
-          </div>
-          <i className="rewards-recognitions-2024">{`Rewards & Recognitions-2024`}</i>
+        <div>
+        {selectedComponent}
         </div>
-        <div className="individually-we-are-one-drop-parent">
-          <div className="individually-we-are">
-            Individually, we are one drop. Together, we are an ocean.
-          </div>
-          <div className="where-our-hard">
-            Where our hard work, dedication and consistency is truly appreciated
-          </div>
-        </div>
-        <b className="collaborative-vibes">Collaborative vibes</b>
-        <div className="rectangle-parent17">
-          <img
-            className="group-child43"
-            alt=""
-            src="/rectangle-148221@2x.png"
-          />
-          <div className="group-child44" />
-          <div className="group-child45" />
-        </div>
-        <img
-          className="aboutustabs-child"
-          alt=""
-          src="/rectangle-148223@2x.png"
-        />
-        <img
-          className="aboutustabs-item"
-          alt=""
-          src="/rectangle-148231@2x.png"
-        />
-        <img
-          className="aboutustabs-inner"
-          alt=""
-          src="/rectangle-148230@2x.png"
-        />
         <img className="aboutustabs-child1" alt="" src="/group-2442251.svg" />
       </div>
       <div className="lorem-ipsum-dolor-sit-amet-co-parent">

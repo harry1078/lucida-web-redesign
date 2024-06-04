@@ -541,6 +541,7 @@
 .work-life {
   position: absolute;
   line-height: 1.75rem;
+  cursor: pointer;
 }
 .fun-more {
   top: 16.28%;
@@ -550,6 +551,7 @@
 .work-life {
   top: calc(50% - 14.5px);
   left: calc(50% - 51px);
+  color:white !important
 }
 .work-life-wrapper {
   width: 100%;
@@ -587,143 +589,6 @@
   bottom: 95.97%;
   left: 27.98%;
   font-size: var(--font-size-lg);
-}
-.our {
-  font-weight: 600;
-}
-.b1 {
-  font-family: var(--font-mulish);
-}
-.brainstorming1 {
-  font-weight: 700;
-}
-.brainstorming {
-  font-size: var(--font-size-17xl);
-}
-.our-brainstorming {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.rewards-recognitions-2024 {
-  position: absolute;
-  top: 66.39%;
-  left: 0;
-  font-weight: 500;
-}
-.our-brainstorming-parent {
-  position: absolute;
-  height: 11.14%;
-  width: 38.97%;
-  top: 13.11%;
-  right: 61.03%;
-  bottom: 75.75%;
-  left: 0;
-}
-.individually-we-are,
-.where-our-hard {
-  position: absolute;
-  left: 0;
-  display: inline-block;
-  width: 31.25rem;
-}
-.individually-we-are {
-  top: 0;
-}
-.where-our-hard {
-  top: 5.125rem;
-}
-.individually-we-are-one-drop-parent {
-  position: absolute;
-  height: 12.92%;
-  width: 42.92%;
-  top: 29.96%;
-  right: 55.62%;
-  bottom: 57.12%;
-  left: 1.46%;
-  font-size: var(--font-size-5xl);
-  color: var(--color-gray-700);
-}
-.collaborative-vibes,
-.group-child43 {
-  position: absolute;
-  top: 57.96%;
-  left: 35.97%;
-}
-.group-child43 {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.group-child44,
-.group-child45 {
-  position: absolute;
-  height: 2.4%;
-  width: 16.57%;
-  top: 90.72%;
-  right: 75.69%;
-  bottom: 6.89%;
-  left: 7.73%;
-  background-color: var(--color-cornflowerblue-100);
-}
-.group-child45 {
-  width: 67.96%;
-  right: 7.73%;
-  left: 24.31%;
-  background-color: var(--white);
-}
-.rectangle-parent17 {
-  position: absolute;
-  height: 31.27%;
-  width: 46.61%;
-  top: 13.11%;
-  right: 5.75%;
-  bottom: 55.62%;
-  left: 47.64%;
-}
-.aboutustabs-child,
-.aboutustabs-item {
-  height: 28%;
-  width: 31.24%;
-  top: 65.64%;
-  bottom: 6.37%;
-  object-fit: cover;
-}
-.aboutustabs-child {
-  position: absolute;
-  right: 67.3%;
-  left: 1.46%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.aboutustabs-item {
-  right: 33.65%;
-  left: 35.11%;
-}
-.aboutustabs-child1,
-.aboutustabs-inner,
-.aboutustabs-item {
-  position: absolute;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.aboutustabs-inner {
-  height: 28%;
-  width: 31.24%;
-  top: 65.64%;
-  right: 0;
-  bottom: 6.37%;
-  left: 68.76%;
-  object-fit: cover;
 }
 .aboutustabs-child1 {
   height: 4.12%;

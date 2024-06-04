@@ -6,7 +6,7 @@ const Solutions = () => {
   const navigate = useNavigate();
 
   const onHomeTextClick = useCallback(() => {
-    navigate("/lucidahome");
+    navigate("/");
   }, [navigate]);
 
   const onAboutUSTextClick = useCallback(() => {
