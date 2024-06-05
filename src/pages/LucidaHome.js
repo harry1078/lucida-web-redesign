@@ -1,20 +1,56 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Offerings from "../components/Offerings";
+import Services from "../components/Services";
+import { OurSolutionsData } from "../DataSets/lucidaDataset";
 import "./LucidaHome.css";
+import "../components/Offerings.css";
+import "../components/Services.css";  
 
 const LucidaHome = () => {
   const navigate = useNavigate();
 
-  const onPrimaryButtonContainerClick = useCallback(() => {
-    navigate("/solutions");
-  }, [navigate]);
+  const [activeTab, setActiveTab] = useState(OurSolutionsData[0].label);
+  
+  const handleTabChange = (tabLabel) => {
+    setActiveTab(tabLabel === activeTab ? '' : tabLabel);
+  };
+  
+
+  const items = [
+    {
+      title: 'Speechscribe',
+      description: 'Speech to Script, Powered by AI'
+    },
+    {
+      title: 'Text Duo',
+      description: 'Intelligent Insights: Summarize and Extract, Effortlessly'
+    },
+    {
+      title: 'OptiScan',
+      description: 'Text Discovery, Powered by AI Dialogue'
+    },
+    {
+      title: 'Senti-Mentify',
+      description: 'Emotional Intelligence, Elevated by AI'
+    },
+    {
+      title: 'Traffic Surveillance System',
+      description: 'AI-Powered Traffic Transparency, Through CCTV Lenses'
+    },
+    {
+      title: 'PnID',
+      description: 'P&ID Automation, Elevated by AI Vision'
+    }
+  ];
+
 
   const onContactUSClick = useCallback(() => {
     navigate("/contact");
   }, [navigate]);
 
   const onHomeTextClick = useCallback(() => {
-    navigate("/lucidahome");
+    navigate("/");
   }, [navigate]);
 
   const onAboutUSTextClick = useCallback(() => {
@@ -32,6 +68,7 @@ const LucidaHome = () => {
   const onContactTextClick = useCallback(() => {
     navigate("/contact");
   }, [navigate]);
+
 
   return (
     <div className="lucida-home">
@@ -175,140 +212,50 @@ const LucidaHome = () => {
             <b className="to-your-business">Can Help You!!</b>
           </div>
           <div className="line-parent">
-            <div className="group-child7" />
-            <div className="group-frame">
-              <div className="frame-wrapper">
-                <div className="offerings-parent">
-                  <b className="offerings">Offerings</b>
+          <div className="group-child7" />
+          <div className="group-frame">
+          <div className="frame-wrapper">
+          {OurSolutionsData.map((tab) => (
+              <div
+                  key={tab.id}
+                  className={`offerings-parent ${activeTab === 'Offerings' ? 'active' : ''}`}
+                  onClick={() => handleTabChange('Offerings')}
+              >
+                  <div className="offerings">Offerings</div>
                   <div className="frame-child2" />
-                </div>
               </div>
-            </div>
-            <div className="services">Services</div>
-          </div>
-        </div>
-        <div className="group-parent13">
-          <div className="group-wrapper1">
-            <div className="frame-wrapper">
-              <div className="image-22-parent">
-                <img className="image-22-icon" alt="" src="/image-221@2x.png" />
-                <div className="llm-text-analysis-using-gen-ai-parent">
-                  <div className="llm-text-analysis">
-                    LLM TEXT ANALYSIS using Gen AI
-                  </div>
-                  <div className="experience-advanced-text">
-                    Experience advanced text analytics with human-like
-                    capabilities.
-                  </div>
-                  <img className="group-icon1" alt="" src="/group5.svg" />
-                </div>
+                  ))}
               </div>
-              <div className="image-21-parent">
-                <img className="image-21-icon" alt="" src="/image-212@2x.png" />
-                <div className="group-parent15">
-                  <div className="image-video-analysis-platfor-parent">
-                    <div className="image-video">{`IMAGE & VIDEO ANALYSIS PLATFORM using Gen AI`}</div>
-                    <img className="group-icon2" alt="" src="/group5.svg" />
-                  </div>
-                  <div className="unlock-value-for">
-                    Unlock value for your enterprise with advanced image
-                    analysis.
-                  </div>
-                </div>
-              </div>
-              <div className="group-parent16">
-                <div className="image-21-group">
-                  <img
-                    className="image-21-icon1"
-                    alt=""
-                    src="/image-213@2x.png"
-                  />
-                  <div className="auto-ui-code">Auto UI Code Gen</div>
-                </div>
-                <div className="group-parent17">
-                  <div className="image-video-analysis-platfor-parent">
-                    <div className="designgeneratedeployeffortl">
-                      DESIGN.GENERATE.DEPLOY.EFFORTLESSLY
-                    </div>
-                    <img className="group-icon3" alt="" src="/group5.svg" />
-                  </div>
-                  <div className="experience-advanced-text">
-                    Effortlessly design, generate, and deploy solutions that
-                    elevate your business to new heights.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <img className="group-child8" alt="" src="/group-244086.svg" />
-          <div className="group-child9" />
-          <div
-            className="primary-button"
-            onClick={onPrimaryButtonContainerClick}
+              <div
+              className={`services-parent ${activeTab === 'Services' ? 'active' : ''}`}
+              onClick={() => handleTabChange('Services')}
           >
-            <img className="vector-icon3" alt="" src="/vector41.svg" />
-            <div className="explore">Explore</div>
+              <div className="services">Services</div>
+          </div>
+          </div>
           </div>
         </div>
+      
+        {activeTab === 'Offerings' ? <Offerings /> : <Services />}
+
       </div>
+
+
       <div className="how-our-solutions-parent">
         <b className="how-our-solutions">Check Out Our Case Studies</b>
         <div className="group-parent18">
-          <div className="rectangle-parent3">
-            <div className="group-child10" />
+        {items.map((item, index) => (
+          <div className={`rectangle-parent${index + 3}`} key={index}>
+            <div className={`group-child${index + 10}`} />
             <div className="speechscribe-parent">
-              <b className="speechscribe">Speechscribe</b>
+              <b className="speechscribe">{item.title}</b>
               <div className="speech-to-script">
-                Speech to Script, Powered by AI
+                {item.description}
               </div>
             </div>
           </div>
-          <div className="rectangle-parent4">
-            <div className="group-child11" />
-            <div className="text-duo-parent">
-              <b className="text-duo">Text Duo</b>
-              <div className="intelligent-insights-summariz">
-                Intelligent Insights: Summarize and Extract, Effortlessly
-              </div>
-            </div>
-          </div>
-          <div className="rectangle-parent5">
-            <div className="group-child12" />
-            <div className="optiscan-parent">
-              <b className="optiscan">OptiScan</b>
-              <div className="text-discovery-powered">
-                Text Discovery, Powered by AI Dialogue
-              </div>
-            </div>
-          </div>
-          <div className="rectangle-parent6">
-            <div className="group-child13" />
-            <div className="senti-mentify-parent">
-              <b className="senti-mentify">Senti-Mentify</b>
-              <div className="emotional-intelligence-elevat">
-                Emotional Intelligence, Elevated by AI
-              </div>
-            </div>
-          </div>
-          <div className="rectangle-parent7">
-            <div className="group-child14" />
-            <div className="traffic-surveillance-system-parent">
-              <b className="traffic-surveillance-system">
-                Traffic Surveillance System
-              </b>
-              <div className="ai-powered-traffic-transparenc">
-                AI-Powered Traffic Transparency, Through CCTV Lenses
-              </div>
-            </div>
-          </div>
-          <div className="rectangle-parent8">
-            <div className="group-child15" />
-            <div className="pnid-parent">
-              <b className="pnid">PnID</b>
-              <div className="pid-automation-elevated">{`P&ID Automation, Elevated by AI Vision`}</div>
-            </div>
-          </div>
-        </div>
+        ))}
+      </div>
       </div>
       <div className="how-our-solutions-group">
         <b className="how-our-solutions1">Partners we work with</b>
@@ -325,21 +272,21 @@ const LucidaHome = () => {
             <b className="to-your-business">To Your Business</b>
           </div>
           <div className="when-it-comes">
-            When it comes to choosing the perfect solution for your business,
-            it's essential to take a comprehensive approach that aligns with
-            your unique needs and goals. At Lucida Technologies, we understand
-            that every business is different, and that's why we offer
-            personalized consultations to help you find the right fit. We
-            believe in building long-lasting partnerships with our clients.
-          </div>
-          <div className="buttons">
-            <button className="contactus" onClick={onContactUSClick}>
-              <h2 className="contact-us">Contact Us</h2>
-            </button>
-            <button className="requestdemo">
-              <h2 className="request-demo">Request Demo</h2>
-            </button>
-          </div>
+          When it comes to choosing the perfect solution for your business,
+          it's essential to take a comprehensive approach that aligns with
+          your unique needs and goals. At Lucida Technologies, we understand
+          that every business is different, and that's why we offer
+          personalized consultations to help you find the right fit. We
+          believe in building long-lasting partnerships with our clients.
+        </div>
+        <div className="buttons">
+          <button className="contactus" onClick={onContactUSClick}>
+            <h2 className="contact-us">Contact Us</h2>
+          </button>
+          <button className="requestdemo">
+            <h2 className="request-demo">Request Demo</h2>
+          </button>
+        </div>
         </div>
         <img
           className="howtochoosesolution-child"
@@ -514,7 +461,7 @@ Identify investment needs and prioritize spend based on organizational prioritie
           </div>
         </div>
         <div className="at-lucida-we-container">
-          <p className="create-strategy-based">
+          <p className="create-strategy-based-lucida">
             At Lucida, we understand that digital transformation is more than
             just implementing new technologies. It's a holistic approach that
             requires a deep understanding of your business, your customers, and
@@ -522,7 +469,7 @@ Identify investment needs and prioritize spend based on organizational prioritie
             to develop a tailored digital transformation strategy that aligns
             with your organizational goals and objectives.
           </p>
-          <p className="create-strategy-based">&nbsp;</p>
+          <p className="create-strategy-based-lucida">&nbsp;</p>
           <p className="venture-on-your">
             Venture  on your digital transformation journey with Lucida, the
             catalyst that will propel your business into a future of endless
