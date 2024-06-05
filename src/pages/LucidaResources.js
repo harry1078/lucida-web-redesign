@@ -38,7 +38,7 @@ const LucidaResources = () => {
   }, [navigate]);
 
   const onHomeTextClick = useCallback(() => {
-    navigate("/lucidahome");
+    navigate("/");
   }, [navigate]);
 
   const onAboutUSTextClick = useCallback(() => {

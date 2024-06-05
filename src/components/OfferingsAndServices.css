@@ -436,15 +436,6 @@
   max-height: 100%;
   object-fit: cover;
 }
-.group-parent17 {
-  position: absolute;
-  height: 21.71%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 78.29%;
-  left: 0;
-}
 .lorem-ipsum-dolor-container1,
 .lorem-ipsum-dolor4 {
   position: absolute;
@@ -626,21 +617,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.group-parent16,
-.group-parent20 {
-  position: absolute;
-  height: 22.71%;
-  width: 100%;
-  top: 77.29%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.group-parent16 {
-  height: 89.5%;
-  top: 5.09%;
-  bottom: 5.41%;
-}
+
 .property-1group-244301 {
   position: absolute;
   top: 20px;
